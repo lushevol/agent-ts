@@ -1,0 +1,19 @@
+{
+  "name": "agent-ts",
+  "private": true,
+  "packageManager": "bun@1.0.36",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "turbo format"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.5",
+    "typescript": "^5.3.3"
+  }
+}
