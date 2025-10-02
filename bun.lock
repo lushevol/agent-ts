@@ -1,0 +1,19 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "agent-ts",
+    },
+    "apps/backend": {
+      "name": "@agent-ts/backend",
+    },
+    "apps/frontend": {
+      "name": "@agent-ts/frontend",
+    },
+  },
+  "packages": {
+    "@agent-ts/backend": ["@agent-ts/backend@workspace:apps/backend"],
+
+    "@agent-ts/frontend": ["@agent-ts/frontend@workspace:apps/frontend"],
+  }
+}

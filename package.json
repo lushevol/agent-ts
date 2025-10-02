@@ -11,9 +11,5 @@
     "build": "turbo build",
     "lint": "turbo lint",
     "format": "turbo format"
-  },
-  "devDependencies": {
-    "turbo": "^1.12.5",
-    "typescript": "^5.3.3"
   }
 }

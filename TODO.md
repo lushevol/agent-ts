@@ -10,3 +10,9 @@
 - [ ] Implement CopilotKit runtime proxy in the backend.
 - [ ] Add automated tests and continuous integration workflows.
 - [ ] Expand shared packages for cross-application utilities.
+- [ ] Restore real runtime dependencies and replace offline stubs when registry access is available.
+- [x] Build pull request review agent service endpoints and persistence layer.
+- [x] Implement prompt and issue classification management UIs.
+- [x] Integrate review feedback loop to track false positives.
+- [x] Deliver Mastra-driven prompt auto-tuning that incorporates reviewer feedback signals.
+- [x] Stand up regression test suites that run whenever prompts or workflow logic change.
