@@ -17,3 +17,5 @@
 - Scaffolded NestJS backend with Mastra agent service and chat endpoint.
 - Scaffolded Vite frontend with TanStack Router, Tailwind CSS, shadcn/ui button primitive, and CopilotKit chat interface.
 - Authored project overview documentation and established repository TODO list.
+- Captured pull request review agent product requirements and mocked API design in `docs/pull-request-review-agent-prd.md`.
+- Expanded PR review agent PRD with Mastra implementation notes, prompt auto-tuning, and regression testing requirements.
