@@ -53,3 +53,12 @@
 - Updated TODO roadmap reflecting workstream tasks.
 - Functional monorepo packages with shared types spanning database, backend, and frontend layers.
 - Documentation that enables contributors to bootstrap, develop, and validate the full stack confidently.
+
+## Implementation Status
+
+- Packages `@agent-ts/db`, `@agent-ts/shared`, `@agent-ts/api`, and `@agent-ts/web` are scaffolded with workspace-aware builds and exports.
+- Drizzle ORM is configured for PostgreSQL with a shared schema (`users`) and migration tooling wired through `drizzle-kit` scripts.
+- Shared Zod schemas (`insertUserSchema`, `selectUserSchema`) are derived from the Drizzle models for end-to-end validation.
+- The NestJS bootstrap now mounts a tRPC router that exposes CRUD procedures backed by Drizzle and logs initialization state.
+- A typed tRPC React client with React Query providers powers a demo component in the Vite app for creating and listing users.
+- Vitest coverage verifies the happy path for creating and retrieving users through the tRPC caller with a mocked Drizzle client.

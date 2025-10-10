@@ -9,6 +9,10 @@
       "cache": false
     },
     "lint": {},
-    "format": {}
+    "format": {},
+    "test": {
+      "dependsOn": ["^test"],
+      "outputs": []
+    }
   }
 }
