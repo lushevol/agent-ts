@@ -2,6 +2,7 @@ import { createRoute } from '@tanstack/react-router';
 import { Route as RootRoute } from './__root';
 import { AgentChat } from '../components/AgentChat';
 import { ReviewAgentDemo } from '../components/ReviewAgentDemo';
+import { TrpcUsersPreview } from '../components/TrpcUsersPreview';
 
 function IndexPage() {
   return (
@@ -15,6 +16,7 @@ function IndexPage() {
       </header>
       <AgentChat />
       <ReviewAgentDemo />
+      <TrpcUsersPreview />
     </section>
   );
 }

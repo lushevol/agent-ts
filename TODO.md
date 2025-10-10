@@ -15,11 +15,11 @@
 - [x] Integrate review feedback loop to track false positives.
 - [x] Deliver Mastra-driven prompt auto-tuning that incorporates reviewer feedback signals.
 - [x] Stand up regression test suites that run whenever prompts or workflow logic change.
-- [ ] Establish tRPC + Drizzle + NestJS + Vite stack foundations.
-  - [ ] Scaffold pnpm workspace packages for `db`, `shared`, `api`, and `web`.
-  - [ ] Configure Drizzle ORM with PostgreSQL connection pooling and migrations.
-  - [ ] Generate shared Zod schemas and TypeScript types from Drizzle models.
-  - [ ] Implement NestJS tRPC router with CRUD procedures backed by Drizzle.
-  - [ ] Expose tRPC middleware within the NestJS bootstrap pipeline.
-  - [ ] Integrate tRPC React client and React Query provider in the Vite app.
-  - [ ] Add end-to-end validation via sample queries/mutations and automated tests.
+- [x] Establish tRPC + Drizzle + NestJS + Vite stack foundations.
+  - [x] Scaffold pnpm workspace packages for `db`, `shared`, `api`, and `web`.
+  - [x] Configure Drizzle ORM with PostgreSQL connection pooling and migrations.
+  - [x] Generate shared Zod schemas and TypeScript types from Drizzle models.
+  - [x] Implement NestJS tRPC router with CRUD procedures backed by Drizzle.
+  - [x] Expose tRPC middleware within the NestJS bootstrap pipeline.
+  - [x] Integrate tRPC React client and React Query provider in the Vite app.
+  - [x] Add end-to-end validation via sample queries/mutations and automated tests.
